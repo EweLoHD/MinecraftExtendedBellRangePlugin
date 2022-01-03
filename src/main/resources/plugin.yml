@@ -1,0 +1,10 @@
+name: ExtendedBellRange
+version: '${project.version}'
+main: lu.ewelohd.minecraftplugin.extendedbellrange.ExtendedBellRange
+api-version: 1.18
+authors: [ EweLoHD ]
+commands:
+  bell:
+    description: Commands for the ExtendedBellRange Plugin
+    usage: /<command> [add | edit | remove | list | help] [volume] [pitch]
+    permission: op
